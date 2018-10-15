@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class LoggerTest {
     @Test
     public void loggerTest1(){
-        String name = "wangzhiyong";
+        String name = "wangzhiyon";
         String password = "123456";
         log.debug("debug----");
         log.info("name:{} password:{}------",name,password);
